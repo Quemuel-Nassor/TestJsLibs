@@ -3,23 +3,25 @@
 }
 
 <div class="text-center">
-  <div class="container">
-    <p>Youtube video with thumbnail and title from API</p>
-    <iframe title="youtube" src="https://www.youtube.com/embed/ara1uUvajoU"></iframe>
-    
-    <p>Vimeo video with thumbnail and title from API</p>
-    <iframe title="vimeo" src="https://player.vimeo.com/video/45915667?h=7978048255" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-   
-    <p>Google maps iframe with custom thumbnail and title that gets executed when in view</p>
-    <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14878.54704889397!2d-47.78151907333986!3d-21.20658392848002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf333b5fe16b%3A0xc63bd09951f65379!2sEst%C3%A1dio%20Santa%20Cruz%20-%20Botafogo%20FC%20Eurobike!5e0!3m2!1spt-BR!2sbr!4v1681268065490!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
-    <p>Image responsive</p>
-    <picture>
-        <source media="(min-width:480px)" srcset="/images/sample.jpg">
-        <source media="(min-width:768px)" srcset="/images/sample.jpg">
-        <source media="(min-width:992px)" srcset="/images/sample.jpg">
-        <img src="/images/sample.jpg" alt="Flowers" style="width:100%;">
-    </picture>
-    
-  </div>
+    <div class="container">
+
+        <p>Image responsive</p>
+        <picture>
+            <source media="(max-width:480px)" srcset="/images/sample-480.jpg">
+            <source media="(max-width:768px)" srcset="/images/sample-768.jpg">
+            <source media="(max-width:992px)" srcset="/images/sample-992.jpg">
+            <img src="/images/sample.webp" alt="Flowers" style="width:100%;">
+        </picture>
+
+        <p>Youtube video with thumbnail and title from API</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ara1uUvajoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <p>Vimeo video with thumbnail and title from API</p>
+        <iframe title="vimeo" src="https://player.vimeo.com/video/45915667?h=7978048255" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+        <p>Google maps iframe with custom thumbnail and title that gets executed when in view</p>
+        <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14878.54704889397!2d-47.78151907333986!3d-21.20658392848002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf333b5fe16b%3A0xc63bd09951f65379!2sEst%C3%A1dio%20Santa%20Cruz%20-%20Botafogo%20FC%20Eurobike!5e0!3m2!1spt-BR!2sbr!4v1681268065490!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </div>
 </div>
